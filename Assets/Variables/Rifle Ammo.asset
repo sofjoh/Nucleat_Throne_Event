@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fd70c8989cfc254f8a2600c7a8eacb9, type: 3}
+  m_Script: {fileID: 11500000, guid: e4f6ac051bc595540ae02a8915e009a5, type: 3}
   m_Name: Rifle Ammo
   m_EditorClassIdentifier: 
-  ammoAmount: 0
-  maxAmmoAmount: 30
+  intVariable: 0
+  maxIntVariable: 30

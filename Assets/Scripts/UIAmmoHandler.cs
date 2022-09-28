@@ -9,18 +9,23 @@ public class UIAmmoHandler : MonoBehaviour
 {
     public TextMeshProUGUI ammoText;
 
-    public AmmoData rifleAmmo;
+    public IntVariable rifleAmmo;
 
 
     private void Start()
     {
-        ammoText.text = "Ammo: " + rifleAmmo.ammoAmount;
+        ammoText.text = "Ammo: " + rifleAmmo.intVariable;
     }
 
     public void reduceAmmoCount()
     {
-       if (rifleAmmo.ammoAmount > 0) rifleAmmo.ammoAmount--;
-        ammoText.text = "Ammo: " + rifleAmmo.ammoAmount;
-        //skriv ut UI ammo
+       if (rifleAmmo.intVariable > 0) rifleAmmo.intVariable--;
+        ammoText.text = "Ammo: " + rifleAmmo.intVariable;
+    }
+
+
+    public void onAmmoPickup()
+    {
+        ammoText.text = "Ammo: " + rifleAmmo.intVariable;
     }
 }

@@ -7,29 +7,33 @@ using UnityEngine.UI;
 public class EnemyHit : MonoBehaviour
 {
     public Animator anim;
-    public GameEvent onBulletHitEnemy;
-    public AmmoData EnemyHealth;
+    public int Health;
     public Slider sliderEnemyHealth;
 
     private void Start()
     {
-        sliderEnemyHealth.maxValue = EnemyHealth.ammoAmount;
-        sliderEnemyHealth.value = sliderEnemyHealth.maxValue;
+        sliderEnemyHealth.maxValue = Health;
+        sliderEnemyHealth.value = Health;
+    }
+
+    private void Update()
+    {
+        if(Health < 1) KillThisEnemy();
     }
 
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Bullet"))
         {
-            onBulletHitEnemy.TriggerEvent();
+            anim.SetTrigger("Hit");
+            Health--;
+            sliderEnemyHealth.value = Health;
         }
     }
-
-
-    public void bulletHitEnemy()
+    
+    public void KillThisEnemy()
     {
-        anim.SetTrigger("Hit");
-        EnemyHealth.ammoAmount--;
-        sliderEnemyHealth.value = EnemyHealth.ammoAmount;
+        Destroy(gameObject);
     }
+
 }

@@ -8,14 +8,14 @@ public class FireGun : MonoBehaviour
     public GameEvent onPlayerFire;
     public Transform firePoint;
     public GameObject rifleBulletPrefab;
-    public AmmoData ammoData;
+    public IntVariable ammoData;
 
     public float bulletSpeed = 30f;
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if(ammoData.ammoAmount > 0) onPlayerFire.TriggerEvent();
+            if(ammoData.intVariable > 0) onPlayerFire.TriggerEvent();
         }
     }
 
