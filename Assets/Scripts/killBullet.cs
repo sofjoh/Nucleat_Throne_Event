@@ -29,6 +29,11 @@ public class killBullet : MonoBehaviour
         {
             bulletAnimator.SetTrigger("Destroy");
         }
+
+        if (col.gameObject.CompareTag("Enemy"))
+        {
+            bulletAnimator.SetTrigger("Destroy");
+        }
     }
 
     public void DestroyBullet()
