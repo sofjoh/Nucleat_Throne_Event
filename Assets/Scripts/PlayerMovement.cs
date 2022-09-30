@@ -53,4 +53,16 @@ public class PlayerMovement : MonoBehaviour
         angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg + 90f;
         weapon.transform.rotation = Quaternion.Euler(0,0,angle - 90f);
     }
+
+    public IEnumerator speedPowerUp()
+    {
+        MoveSpeed *= 1.5f;
+        yield return new WaitForSeconds(4);
+        MoveSpeed /= 1.5f;
+    }
+
+    public void startTheSpeedPickup()
+    {
+        StartCoroutine(speedPowerUp());
+    }
 }

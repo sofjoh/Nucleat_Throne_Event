@@ -34,7 +34,6 @@ public class AmmoPickup : MonoBehaviour
      if (timerOn)
      {
          timerForRespawnPickup -= Time.deltaTime;
-         Debug.Log(timerForRespawnPickup);
      }
 
      if (timerForRespawnPickup <= 0)
