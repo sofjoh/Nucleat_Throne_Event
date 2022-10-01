@@ -35,4 +35,10 @@ public class PlayerHealth : MonoBehaviour
         playerHealth.intVariable -= damage;
         sliderPlayerHealth.value = playerHealth.intVariable;
     }
+    
+    public void HealPlayer(int health)
+    {
+        playerHealth.intVariable += health;
+        sliderPlayerHealth.value = playerHealth.intVariable;
+    }
 }

@@ -9,7 +9,8 @@ public class FieldOfView : MonoBehaviour
     [Range(1,360)]public float angle = 45f;
     public LayerMask targetLayer;
     public LayerMask ostructionLayer;
-    public bool CanSeePlayer { get; private set; }
+    public GameEvent EnemyShoot;
+    public bool CanSeePlayer;
     private void Start()
     {
         StartCoroutine(FOVCheck());
@@ -41,6 +42,7 @@ public class FieldOfView : MonoBehaviour
                 if (!Physics2D.Raycast(transform.position, dirToTarget, distanceToTarget, ostructionLayer))
                 {
                     CanSeePlayer = true;
+                    EnemyShoot.TriggerEvent(target.gameObject);
                 }
                 else
                 {

@@ -9,6 +9,7 @@ public class PortalController : MonoBehaviour
     private SpriteRenderer sprite;
     public IntVariable enemyCount;
     private bool portalIsActive;
+    public GameObject portal;
 
     private void Start()
     {
@@ -38,6 +39,7 @@ public class PortalController : MonoBehaviour
     private void ActivatePortal()
     {
         portalIsActive = true;
-        sprite.color = Color.white;
+        sprite.enabled = false;
+        Instantiate(portal, transform.position, Quaternion.identity);
     }
 }

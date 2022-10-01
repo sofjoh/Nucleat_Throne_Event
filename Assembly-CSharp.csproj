@@ -54,6 +54,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\UIAmmoHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Shooter Enemy\Shooting.cs" />
      <Compile Include="Assets\Scripts\PortalController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -61,6 +62,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Shooter Enemy\FieldOfView.cs" />
      <Compile Include="Assets\Scripts\SceneHandling\SceneHandler.cs" />
      <Compile Include="Assets\EventScripts\GameEvent.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyHit.cs" />
@@ -85,6 +87,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Shooter Enemy\EnemyMovement.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\FireGun.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -102,9 +105,9 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-     <Compile Include="Assets\Scripts\Enemy\Shooter Enemy\EnemyMovement.cs" />
-     <Compile Include="Assets\Scripts\Enemy\Shooter Enemy\Shooting.cs" />
-     <Compile Include="Assets\Scripts\Enemy\Shooter Enemy\FieldOfView.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Shooter Enemy\EnemyBullet.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyDamage.cs" />
+     <Compile Include="Assets\Scripts\HealthPickup.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Scenes\README - License details.txt" />
