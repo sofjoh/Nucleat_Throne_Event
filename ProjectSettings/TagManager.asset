@@ -15,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
-  - 
+  - PickUps
+  - Walls
   - 
   - 
   - 
@@ -55,6 +55,12 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 309102683
+    locked: 0
+  - name: PickUps
+    uniqueID: 1374495739
+    locked: 0
+  - name: Enemy
+    uniqueID: 1281714289
     locked: 0
   - name: Player
     uniqueID: 2158749109

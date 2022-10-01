@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public new Camera camera;
     public GameObject aim;
     public GameObject weapon;
+    public Vector2 offset = new Vector2(0, 0.5f);
 
     private Vector2 movement;
     private Vector2 mousePos;
@@ -49,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         //fixedDeltaTime is amount of time that has lapsed since the last time the function was called. Results in a constant movement speed.
         rigidbody.MovePosition(rigidbody.position + movement.normalized * MoveSpeed * Time.fixedDeltaTime);
         aim.transform.position = mousePos;
-        Vector2 lookDir = mousePos - rigidbody.position;
+        Vector2 lookDir = mousePos - rigidbody.position - offset;
         angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg + 90f;
         weapon.transform.rotation = Quaternion.Euler(0,0,angle - 90f);
     }
@@ -64,10 +65,5 @@ public class PlayerMovement : MonoBehaviour
     public void startTheSpeedPickup()
     {
         StartCoroutine(speedPowerUp());
-    }
-    
-    public void testtest(GameObject g)
-    {
-        Debug.Log(g);
     }
 }

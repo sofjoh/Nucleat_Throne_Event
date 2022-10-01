@@ -14,6 +14,7 @@ public class follow_player : MonoBehaviour
     private float originalTimer = 1;
     public GameEvent collisionEnemyPlayer;
     private Rigidbody2D rb;
+    private Vector2 dir;
 
 
     private void Start()
@@ -24,6 +25,12 @@ public class follow_player : MonoBehaviour
 
     private void Update()
     {
+        dir = target.position - transform.position;
+
+    }
+
+    private void FixedUpdate()
+    {
         if (Vector2.Distance(transform.position, target.position) < AttackFieldRadius)
         {
             moveEnemy();
@@ -32,9 +39,7 @@ public class follow_player : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
         }
-        
     }
-
 
 
     private void moveEnemy()
@@ -44,15 +49,14 @@ public class follow_player : MonoBehaviour
             ongoingCollision();
         }
         else
-        {
-            //fix this. Kolla upp rigid body movement
-            rb.velocity = (target.position - transform.position * speed * Time.deltaTime);
-            Debug.Log(rb.velocity);
+        { 
+            addForceToEnemy();
         }
     }
 
     private void ongoingCollision()
     {
+        rb.velocity = Vector2.zero;
         if(collidingWithPlayer) collisionEnemyPlayer.TriggerEvent();
 
         if (timer < 0)
@@ -66,5 +70,12 @@ public class follow_player : MonoBehaviour
             timer -= Time.deltaTime;
         }
 
+    }
+
+    private void addForceToEnemy()
+    {
+        {
+            rb.velocity = (dir * speed * Time.fixedDeltaTime);
+        }
     }
 }
