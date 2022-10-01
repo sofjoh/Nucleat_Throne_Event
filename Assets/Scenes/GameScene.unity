@@ -961,7 +961,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -312.39996, y: 181.1}
+  m_AnchoredPosition: {x: -292.39996, y: 132.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &698016306
@@ -35408,6 +35408,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnGameObjectEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIntEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1389253403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35450,6 +35456,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnGameObjectEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIntEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1389253405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35478,6 +35490,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnGameObjectEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIntEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1394985094
 GameObject:
   m_ObjectHideFlags: 0
@@ -35915,6 +35933,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnGameObjectEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIntEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1484350953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35930,11 +35954,17 @@ MonoBehaviour:
   gameEvent: {fileID: 11400000, guid: d48d38856a92d444f91309f3d2f2d80f, type: 2}
   onEventTriggered:
     m_PersistentCalls:
+      m_Calls: []
+  OnGameObjectEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIntEvent:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1484350950}
         m_TargetAssemblyTypeName: UIAmmoHandler, Assembly-CSharp
         m_MethodName: onAmmoPickup
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -36045,7 +36075,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -333, y: 134}
+  m_AnchoredPosition: {x: -313, y: 85}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1582819427
@@ -47660,9 +47690,7 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4869011006468969349, guid: 69f464c197a894842ae80a87dcd6afa2, type: 3}
-    - {fileID: 4869011006468969400, guid: 69f464c197a894842ae80a87dcd6afa2, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69f464c197a894842ae80a87dcd6afa2, type: 3}
 --- !u!1 &1904845348
 GameObject:

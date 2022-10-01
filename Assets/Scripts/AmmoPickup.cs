@@ -5,9 +5,8 @@ using UnityEngine;
 
 public class AmmoPickup : MonoBehaviour
 {
- public int ammoAmount;
- public IntVariable rifleAmmo;
- public GameEvent OnAmmoPickup;
+    public int ammoAmount = 5;
+    public GameEvent OnAmmoPickup;
  public float timerForRespawnPickup = 5f;
  private float copytimerForRespawnPickup = 5f;
  private bool timerOn;
@@ -21,8 +20,7 @@ public class AmmoPickup : MonoBehaviour
  { 
      if (col.CompareTag("Player"))
      {
-         rifleAmmo.intVariable += ammoAmount;
-         OnAmmoPickup.TriggerEvent();
+         OnAmmoPickup.TriggerEvent(ammoAmount);
          timerOn = true;
          gameObject.GetComponent<BoxCollider2D>().enabled = false;
          gameObject.GetComponent<SpriteRenderer>().enabled = false;

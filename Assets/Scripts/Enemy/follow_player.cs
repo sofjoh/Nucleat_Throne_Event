@@ -13,11 +13,13 @@ public class follow_player : MonoBehaviour
     public float timer = 1;
     private float originalTimer = 1;
     public GameEvent collisionEnemyPlayer;
+    private Rigidbody2D rb;
 
 
     private void Start()
     {
         originalTimer = timer;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -25,6 +27,10 @@ public class follow_player : MonoBehaviour
         if (Vector2.Distance(transform.position, target.position) < AttackFieldRadius)
         {
             moveEnemy();
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
         }
         
     }
@@ -39,7 +45,9 @@ public class follow_player : MonoBehaviour
         }
         else
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            //fix this. Kolla upp rigid body movement
+            rb.velocity = (target.position - transform.position * speed * Time.deltaTime);
+            Debug.Log(rb.velocity);
         }
     }
 

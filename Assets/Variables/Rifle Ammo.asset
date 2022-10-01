@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f6ac051bc595540ae02a8915e009a5, type: 3}
   m_Name: Rifle Ammo
   m_EditorClassIdentifier: 
-  intVariable: 0
+  intVariable: 5
   maxIntVariable: 30

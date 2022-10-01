@@ -65,4 +65,9 @@ public class PlayerMovement : MonoBehaviour
     {
         StartCoroutine(speedPowerUp());
     }
+    
+    public void testtest(GameObject g)
+    {
+        Debug.Log(g);
+    }
 }

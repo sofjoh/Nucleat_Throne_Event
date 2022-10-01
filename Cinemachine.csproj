@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{c8057c83-ee61-4f18-97f0-bd174dbca943}</ProjectGuid>
+    <ProjectGuid>{f5804f1f-969a-9495-44e7-026f0300f2c7}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>UnityEngine.UI</AssemblyName>
+    <AssemblyName>Cinemachine</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -27,7 +27,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_0;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_TILEMAP;PACKAGE_ANIMATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_0;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CINEMACHINE_TIMELINE;CINEMACHINE_PHYSICS_2D;CINEMACHINE_PHYSICS;CINEMACHINE_UGUI;CINEMACHINE_PIXEL_PERFECT_2_0_3;CINEMACHINE_UNITY_INPUTSYSTEM;CINEMACHINE_UNITY_ANIMATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
@@ -52,92 +52,84 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Image.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Toggle.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutElement.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\IGraphicEnabledDisabled.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Selectable.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Slider.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\HorizontalLayoutGroup.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\IMaskable.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\Shadow.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\VertexHelper.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventData\BaseEventData.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventData\PointerEventData.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\ListPool.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\IMeshModifier.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\MoveDirection.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\UIBehaviour.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Text.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\ReflectionMethodsCache.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Animation\CoroutineTween.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutUtility.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\SpriteState.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\RawImage.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Culling\RectangularVertexClipper.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventInterfaces.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Graphic.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\CanvasScaler.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\MaterialModifiers\IMaterialModifier.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\SetPropertyUtility.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\AspectRatioFitter.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\StencilMaterial.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventSystem.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Culling\IClipRegion.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Misc.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\GraphicRaycaster.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\InputField.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\StandaloneInputModule.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Scrollbar.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\FontUpdateTracker.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ToggleGroup.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\RaycastResult.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Button.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ColorBlock.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Navigation.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\ContentSizeFitter.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\Outline.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Culling\ClipperRegistry.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\VerticalLayoutGroup.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\BaseInput.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\Raycasters\Physics2DRaycaster.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\PositionAsUV1.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\ILayoutElement.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\ExecuteEvents.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventTrigger.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\FontData.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Dropdown.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\MaskUtilities.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\GraphicRegistry.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\CanvasUpdateRegistry.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\GraphicRebuildTracker.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Mask.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Culling\Clipping.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ScrollRect.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\Raycasters\PhysicsRaycaster.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\RectMask2D.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\ObjectPool.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\DefaultControls.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventData\AxisEventData.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\Raycasters\BaseRaycaster.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\SpecializedCollections\IndexedSet.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventTriggerType.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\MaskableGraphic.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\MultipleDisplayUtilities.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\BaseMeshEffect.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutRebuilder.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\AnimationTriggers.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\Properties\AssemblyInfo.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\IMask.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\HorizontalOrVerticalLayoutGroup.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\EventHandle.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutGroup.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\BaseInputModule.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\GridLayoutGroup.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\PointerInputModule.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\TouchInputModule.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\RaycasterManager.cs" />
-     <None Include="C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UnityEngine.UI.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachinePath.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\PostProcessing\CinemachineVolumeSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\ICinemachineCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachineDebug.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\UnityVectorExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineExternalCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineFreeLook.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Helpers\CinemachineTriggerAction.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineCameraOffset.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineCollider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachinePathBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineDollyCart.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachineBlenderSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Impulse\CinemachineImpulseManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\PostProcessing\CinemachinePostProcessing.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineOrbitalTransposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\ICinemachineComponent.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachineComponentBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineBrain.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\LensSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineConfiner.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineSameAsFollowTarget.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Experimental\CinemachineNewVirtualCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineClearShot.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachinePipeline.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineHardLookAt.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Helpers\CinemachineInputProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Timeline\CinemachineTrack.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\Cinemachine3rdPersonFollow.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\SignalSourceAsset.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachinePropertyAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Impulse\CinemachineImpulseSource.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineMixingCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Impulse\CinemachineImpulseListener.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachineExtension.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\AxisState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachineVirtualCameraBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\RuntimeUtility.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineSmoothPath.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachinePixelPerfect.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Impulse\CinemachineFixedSignal.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineFramingTransposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\NoiseSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Timeline\CinemachineMixer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineTransposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\Predictor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Timeline\CinemachineShot.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\TargetPositionCache.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Impulse\CinemachineIndependentImpulseListener.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineTrackedDolly.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineGroupComposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Experimental\CinemachineNewFreeLook.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Helpers\CinemachineTouchInputMapper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineStoryboard.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\Cinemachine3rdPersonAim.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineHardLockToTarget.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Helpers\GroupWeightManipulator.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\SplineHelpers.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineTargetGroup.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Impulse\CinemachineImpulseDefinition.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Impulse\CinemachineCollisionImpulseSource.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\UpdateTracker.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachinePOV.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineRecomposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachineInputAxisDriver.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\GaussianFilter.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Timeline\CinemachineShotPlayable.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Components\CinemachineComposer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineFollowZoom.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CameraState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachineCore.cs" />
+     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\Core\CinemachineBlend.cs" />
+     <None Include="Library\PackageCache\com.unity.cinemachine@2.6.17\Runtime\com.unity.cinemachine.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -720,6 +712,28 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{a92c86af-609f-9586-5517-431ba1a8259a}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
+      <Project>{a211e12d-5f47-a317-1f5f-70da7a2e977e}</Project>
+      <Name>Unity.2D.PixelPerfect</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{28bc3df8-7e10-1dfa-cd4d-f2bacc84cf79}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{b1455149-1147-5644-bb79-9ca49a6ae3ba}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{c8057c83-ee61-4f18-97f0-bd174dbca943}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

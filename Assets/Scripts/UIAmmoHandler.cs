@@ -24,8 +24,9 @@ public class UIAmmoHandler : MonoBehaviour
     }
 
 
-    public void onAmmoPickup()
+    public void onAmmoPickup(int amount)
     {
+        rifleAmmo.intVariable += amount;
         ammoText.text = "Ammo: " + rifleAmmo.intVariable;
     }
 }
