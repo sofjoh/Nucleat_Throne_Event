@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 1374495739
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3490969963958187715, guid: 8889bcd8ecc18114c8d968a42f0f6e61, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 28249771e5aed74459eb77c38c8d937d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,18 +97,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0053715706, y: -0.009592295}
+  m_Offset: {x: -0.005951643, y: -0.08885288}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0909091, y: 0.54545456}
+    oldSize: {x: 0.8425, y: 1.2825}
     newSize: {x: 0.76153845, y: 1.0076923}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0093908, y: 0.35570765}
+  m_Size: {x: 0.70205355, y: 1.0771418}
   m_EdgeRadius: 0
 --- !u!114 &1107511745618959081
 MonoBehaviour:
@@ -124,4 +124,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoAmount: 10
   OnAmmoPickup: {fileID: 11400000, guid: d48d38856a92d444f91309f3d2f2d80f, type: 2}
-  timerForRespawnPickup: 30
+  timerForRespawnPickup: 10

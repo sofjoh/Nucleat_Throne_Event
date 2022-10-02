@@ -34,7 +34,7 @@ public class killBullet : MonoBehaviour
 
         if (col.gameObject.CompareTag("Enemy"))
         {
-            hurtEnemy.TriggerEvent(bulletDamage);
+            hurtEnemy.TriggerEvent(bulletDamage, col.gameObject);
             bulletAnimator.SetTrigger("Destroy");
         }
     }

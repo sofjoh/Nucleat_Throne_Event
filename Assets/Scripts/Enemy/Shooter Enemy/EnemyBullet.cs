@@ -5,14 +5,14 @@ using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour
 {
-    public GameEvent enemyTakeDamage;
+    public GameEvent playerTakeDamage;
     public int damage = 1;
 
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            enemyTakeDamage.TriggerEvent(damage);
+            playerTakeDamage.TriggerEvent(damage);
             Destroy(gameObject);
         }
 

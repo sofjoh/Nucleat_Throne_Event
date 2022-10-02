@@ -18,7 +18,7 @@ public class PortalController : MonoBehaviour
 
     private void Update()
     {
-        if (enemyCount.intVariable <= 0)
+        if (enemyCount.intVariable <= 0 && !portalIsActive)
         {
             ActivatePortal();
         }

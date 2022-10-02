@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 4869011006468969402}
   - component: {fileID: 4869011006468969350}
   - component: {fileID: 846515629635492677}
+  - component: {fileID: 1713721722}
+  - component: {fileID: 1713721723}
   m_Layer: 6
   m_Name: Enemy Pink
   m_TagString: Enemy
@@ -115,7 +117,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4869011006468969346}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb31a2d2f45db1d4f85b99062504d956, type: 3}
   m_Name: 
@@ -191,6 +193,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyCount: {fileID: 11400000, guid: dd9be542429e9e04eb7c1ece908501d6, type: 2}
+--- !u!114 &1713721722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869011006468969346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbccc4493f890a342ace64b44737aa19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 0660fd515edaede4b92a38d1cd108e53, type: 2}
+  onEventTriggered:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGameObjectEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIntEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIntAndObjectEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1713721723}
+        m_TargetAssemblyTypeName: EnemyDamage, Assembly-CSharp
+        m_MethodName: damageEnemy
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1713721723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4869011006468969346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7db1865ed359e42afc9a617ccda02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 5
+  sliderEnemyHealth: {fileID: 4869011006663912659}
+  enemyHurtEffect: {fileID: 6996101127855435021, guid: 46ac3f93abb95784c8fcade3e84e3292, type: 3}
 --- !u!1 &4869011006663912669
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +478,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

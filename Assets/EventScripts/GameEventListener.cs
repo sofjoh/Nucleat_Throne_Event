@@ -10,6 +10,7 @@ public class GameEventListener : MonoBehaviour
     public UnityEvent onEventTriggered;
     public UnityGameObjectEvent OnGameObjectEvent;
     public UnityIntEvent OnIntEvent;
+    public UnityIntAndObjectEvent OnIntAndObjectEvent;
 
     private void OnEnable()
     {
@@ -33,6 +34,11 @@ public class GameEventListener : MonoBehaviour
     {
         OnIntEvent.Invoke(i);
     }
+
+    public void OnIntAnsObjectEventTriggered(int i, GameObject g)
+    {
+        OnIntAndObjectEvent.Invoke(i,g);
+    }
 }
 
 [System.Serializable]
@@ -43,6 +49,12 @@ public class UnityGameObjectEvent : UnityEvent < GameObject >
 
 [System.Serializable]
 public class UnityIntEvent : UnityEvent<int>
+{
+    
+}
+
+[System.Serializable]
+public class UnityIntAndObjectEvent : UnityEvent<int, GameObject>
 {
     
 }

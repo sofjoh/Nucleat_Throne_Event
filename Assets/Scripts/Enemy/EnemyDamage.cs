@@ -7,6 +7,7 @@ public class EnemyDamage : MonoBehaviour
 {
     public int Health;
     public Slider sliderEnemyHealth;
+    public GameObject enemyHurtEffect;
     
     private void Start()
     {
@@ -19,10 +20,14 @@ public class EnemyDamage : MonoBehaviour
         if(Health < 1) KillThisEnemy();
     }
 
-    public void damageEnemy(int damage)
+    public void damageEnemy(int damage, GameObject gameobject)
     {
-        Health = Health - damage;
-        sliderEnemyHealth.value = Health;
+        if (gameobject == this.gameObject)
+        {
+            Instantiate(enemyHurtEffect, transform.position, Quaternion.identity);
+            Health -= damage;
+            sliderEnemyHealth.value = Health;
+        }
     }
     public void KillThisEnemy()
     {

@@ -31,6 +31,14 @@ public class GameEvent : ScriptableObject
         }
     }
     
+    public void TriggerEvent(int input, GameObject gameobject)
+    {
+        for (int i = listeners.Count - 1; i >= 0; i--)
+        {
+            listeners[i].OnIntAnsObjectEventTriggered(input, gameobject);
+        }
+    }
+    
     public void AddListener(GameEventListener listener)
     {
         listeners.Add(listener);

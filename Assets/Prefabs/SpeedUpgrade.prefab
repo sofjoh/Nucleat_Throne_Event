@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedUpgrade: {fileID: 11400000, guid: bcb5749c94b9c19458c35f8187295a28, type: 2}
-  pickupEffect: {fileID: 1016464665302776382, guid: ab27d56def41e7e48a028bd6def99a59, type: 3}
+  pickupEffect: {fileID: 5303032422627591268, guid: c84dca1fc885924439ba3ebc5050f5cd, type: 3}
 --- !u!58 &5883606017695913401
 CircleCollider2D:
   m_ObjectHideFlags: 0

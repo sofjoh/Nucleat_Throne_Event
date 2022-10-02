@@ -11,6 +11,7 @@ public class FieldOfView : MonoBehaviour
     public LayerMask ostructionLayer;
     public GameEvent EnemyShoot;
     public bool CanSeePlayer;
+    public float shootingFrequency = 0.3f;
     private void Start()
     {
         StartCoroutine(FOVCheck());
@@ -18,7 +19,7 @@ public class FieldOfView : MonoBehaviour
 
     private IEnumerator FOVCheck()
     {
-        WaitForSeconds wait = new WaitForSeconds (0.2f);
+        WaitForSeconds wait = new WaitForSeconds (shootingFrequency);
 
         while (true)
         {
@@ -62,10 +63,3 @@ public class FieldOfView : MonoBehaviour
         }
     }
 }
-
-//DONE steg 1: få den att röra sig 
-//steg 2: få den att skjuta bullets
-//steg 3: få det att se snyggt ut.
-//sätt rätt animation för hur fienden rör sig. I movement script.
-//när den ser spelaren och ska "spotta", sätt rätt animation/sprite så att den är riktad mot spelaren. 
-//trigga event när can see player == true. Skjut bullet. 

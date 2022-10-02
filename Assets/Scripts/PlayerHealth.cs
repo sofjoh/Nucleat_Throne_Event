@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public IntVariable playerHealth;
     public Slider sliderPlayerHealth;
+    public Animator anim;
 
 
     private void Start()
@@ -32,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void DamagePlayer(int damage)
     {
+        anim.SetTrigger("PlayerHit");
         playerHealth.intVariable -= damage;
         sliderPlayerHealth.value = playerHealth.intVariable;
     }
@@ -39,6 +41,10 @@ public class PlayerHealth : MonoBehaviour
     public void HealPlayer(int health)
     {
         playerHealth.intVariable += health;
+        if (playerHealth.intVariable > playerHealth.maxIntVariable)
+        {
+            playerHealth.intVariable = playerHealth.maxIntVariable;
+        }
         sliderPlayerHealth.value = playerHealth.intVariable;
     }
 }
