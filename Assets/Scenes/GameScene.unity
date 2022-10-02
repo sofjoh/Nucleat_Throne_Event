@@ -37887,6 +37887,14 @@ PrefabInstance:
       propertyPath: patrolPoints.Array.data[3]
       value: 
       objectReference: {fileID: 774724027}
+    - target: {fileID: 4525047823202044166, guid: 47319879bd00dc54b85a3e23cf2f3a5c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525047823202044166, guid: 47319879bd00dc54b85a3e23cf2f3a5c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47319879bd00dc54b85a3e23cf2f3a5c, type: 3}
 --- !u!1 &1137426895
@@ -50682,6 +50690,14 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1297456360}
+    - target: {fileID: 4869011007389671941, guid: 69f464c197a894842ae80a87dcd6afa2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869011007389671941, guid: 69f464c197a894842ae80a87dcd6afa2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69f464c197a894842ae80a87dcd6afa2, type: 3}
 --- !u!1 &1904845348

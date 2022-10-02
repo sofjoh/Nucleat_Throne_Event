@@ -14,6 +14,7 @@ public class UIAmmoHandler : MonoBehaviour
 
     private void Start()
     {
+        rifleAmmo.intVariable = rifleAmmo.maxIntVariable;
         ammoText.text = "Ammo: " + rifleAmmo.intVariable;
     }
 
