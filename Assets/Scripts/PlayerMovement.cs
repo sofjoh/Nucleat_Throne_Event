@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 movement;
     private Vector2 mousePos;
-    private float angle;
+    [HideInInspector] public float angle;
     void Update()
     {
         //value between -1 and 1. 
@@ -47,7 +47,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //fixedDeltaTime is amount of time that has lapsed since the last time the function was called. Results in a constant movement speed.
         rigidbody.MovePosition(rigidbody.position + movement.normalized * MoveSpeed * Time.fixedDeltaTime);
         aim.transform.position = mousePos;
         Vector2 lookDir = mousePos - rigidbody.position - offset;

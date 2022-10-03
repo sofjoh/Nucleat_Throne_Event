@@ -10,6 +10,7 @@ public class PortalController : MonoBehaviour
     public IntVariable enemyCount;
     private bool portalIsActive;
     public GameObject portal;
+    public GameEvent playPortalSound;
 
     private void Start()
     {
@@ -30,8 +31,7 @@ public class PortalController : MonoBehaviour
         {
             if (col.CompareTag("Player"))
             {
-                int i = SceneManager.GetActiveScene().buildIndex;
-                SceneManager.LoadScene(sceneBuildIndex: i + 1);
+                startFinishedLevel();
             }
         }
     }
@@ -41,5 +41,18 @@ public class PortalController : MonoBehaviour
         portalIsActive = true;
         sprite.enabled = false;
         Instantiate(portal, transform.position, Quaternion.identity);
+    }
+
+    IEnumerator LevelFinished()
+    {
+        playPortalSound.TriggerEvent();
+        yield return new WaitForSeconds(2);
+        int i = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(sceneBuildIndex: i + 1);
+    }
+    
+    public void startFinishedLevel()
+    {
+        StartCoroutine(LevelFinished());
     }
 }

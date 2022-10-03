@@ -9,6 +9,8 @@ public class FireGun : MonoBehaviour
     public Transform firePoint;
     public GameObject rifleBulletPrefab;
     public IntVariable ammoData;
+    private float angle;
+    public GameObject playermovement;
 
     public float bulletSpeed = 30f;
     void Update()
@@ -21,8 +23,9 @@ public class FireGun : MonoBehaviour
 
     public void RifleFire()
     {
+        angle = playermovement.GetComponent<PlayerMovement>().angle;
         anim.SetTrigger("Fire");
-        var rotation = Quaternion.Euler(0,0,firePoint.rotation.z -90f);
+        var rotation = Quaternion.Euler(0,0,angle -90);
         GameObject rifleBullet = Instantiate(rifleBulletPrefab, firePoint.position, rotation);
         Rigidbody2D rb = rifleBullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.right * bulletSpeed, ForceMode2D.Impulse);
