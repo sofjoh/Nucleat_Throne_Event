@@ -46,7 +46,7 @@ public class PortalController : MonoBehaviour
     IEnumerator LevelFinished()
     {
         playPortalSound.TriggerEvent();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1.3f);
         int i = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(sceneBuildIndex: i + 1);
     }

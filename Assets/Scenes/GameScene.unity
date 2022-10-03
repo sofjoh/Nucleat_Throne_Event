@@ -50426,10 +50426,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5671479358648715915, guid: 081762417265c2644ae9bf642ade0965, type: 3}
-      propertyPath: playPortalSound
-      value: 
-      objectReference: {fileID: 11400000, guid: 1574e72073f1eaf4cb338b275846e642, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081762417265c2644ae9bf642ade0965, type: 3}
 --- !u!1001 &5883606018708189980

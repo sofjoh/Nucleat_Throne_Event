@@ -65,4 +65,10 @@ public class PlayerMovement : MonoBehaviour
     {
         StartCoroutine(speedPowerUp());
     }
+
+    public void Vanish()
+    {
+        anim.SetTrigger("Vanish");
+        MoveSpeed = 0;
+    }
 }
