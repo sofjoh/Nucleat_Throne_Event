@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4869011006468969345}
   - component: {fileID: 4869011006468969344}
   - component: {fileID: 4869011006468969347}
-  - component: {fileID: 4869011006468969348}
   - component: {fileID: 4869011006468969351}
   - component: {fileID: 4869011006468969402}
   - component: {fileID: 4869011006468969350}
@@ -110,21 +109,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4869011006468969348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4869011006468969346}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb31a2d2f45db1d4f85b99062504d956, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 4869011006468969347}
-  Health: 5
-  sliderEnemyHealth: {fileID: 4869011006663912659}
 --- !u!50 &4869011006468969351
 Rigidbody2D:
   serializedVersion: 4
@@ -160,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   speed: 70
-  AttackFieldRadius: 5
+  AttackFieldRadius: 7
   minDistance: 0.85
   timer: 1
   collisionEnemyPlayer: {fileID: 11400000, guid: 2129522359e9c254b9756b04aaa9cc55, type: 2}
